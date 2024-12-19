@@ -10,12 +10,7 @@ describe('Pagina de Cadastro', () => {
     //Aplicando boas praticas de testes e melhorando a performace dos testes
     cy.viewport(550, 750);
     
-    cy.get('[data-test="input-name"]').type('Joao');
-    cy.get('[data-test="input-email"]').type('jpars@gmail.com');
-    cy.get('[data-test="input-password"]').type('Senha1234');
-    cy.get('[data-test="input-confirm-password"]').type('Senha1234');
-    cy.get('[data-test="submit-button"]').click();
-    
-    
+    cy.cadastro('Joao', 'jpars@gmail.com', 'Senha1234');
+     
   })
 })

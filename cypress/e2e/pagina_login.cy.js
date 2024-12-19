@@ -8,9 +8,7 @@ describe('Pagina de Login', () => {
       //Aplicando boas praticas de testes e melhorando a performace dos testes
       cy.viewport(550, 750);
       
-      cy.get('[data-test="input-loginEmail"]').type('jpars@gmail.com');
-      cy.get('[data-test="input-loginPassword"]').type('Senha1234');
-      cy.get('[data-test="submit-button"]').click();
+      cy.login('jpars@gmail.com','Senha1234');
       
       
     })
