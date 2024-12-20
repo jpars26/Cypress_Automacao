@@ -1,0 +1,24 @@
+{
+  "name": "curso_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "Teste_Cypress"
+  },
+  "license": "ISC",
+  "author": "Jp",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "mochawesome": "^7.1.3",
+    "nyc": "^17.1.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
